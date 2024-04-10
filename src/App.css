@@ -1,38 +1,996 @@
-.App {
+.etw
+{
+  width: 35%;
+  margin-left: 30px;
+  border-radius: 10%;
+ 
+}
+.ri-shopping-bag-line
+{
+  font-size: 30px;
+  margin-left: 10px;
+ 
+}
+.bag 
+{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 45%;
+  height: 25px;
+  background-color: #2c4152;
+  width: 3%;  
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.gif 
+{
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home   
+{
+  margin-left: 330px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.carousel 
+{
+  width: 100%;
+  padding: 10px;
+  
+}
+
+
+
+.background>h1 
+{
+  padding: 20px;
+ align-items: center;  
+ margin-left: 20px;
+ align-items: center;
+ max-height: 100vh;
+ display: flex;
+ justify-content: center;
+ margin-top: 20px;
+}
+
+.background1>h1 
+{
+  margin-left: 150px;
+  padding: 10px;
+  margin-top: 20px;
+
+}
+
+.background2>h1 
+{
+  margin-left: 150px;
+  padding: 10px;
+  margin-top: 20px;
+
+}
+.men1
+{
+  border: 2px solid black;
+}
+.men1>img 
+{
+   width: 90%;
+   border-radius: 8%;
+   padding: 10px;
+}
+.women 
+{
+  border: 2px solid grey;
+}
+.women>img
+{
+  width: 100%;
+  border-radius: 8%;
+  padding: 20px;
+}
+.kids
+{
+  border: 2px solid skyblue;
+}
+.kids>img
+{
+  width: 100%;
+  border-radius: 8%;
+  padding: 20px;
+  
+}
+
+
+.beauty1
+{
+  border: 2px solid skyblue;
+  height: 400px;
+}
+.beauty1>h5 
+{
+  padding-top: 900px;
+  
+}
+.beauty1>img 
+{
+  width: 100%;
+  border-radius: 8%;
+  padding: 20px;
+
+}
+h5 
+{
+  text-align: center;
+}
+.etw1
+{
+  width: 30%;
+  margin-left: 95px;
+  padding-top: 150px;
+}
+.gst 
+{
+  text-align: center;
+  background-color: rgb(162, 185, 194);
+  border: 1px solid black;
+  border-radius: 10px;
+    
+}
+.etw3
+{
+  width: 12%;
+  margin-left: 30px;
+  border-radius: 10%;
+ 
+}
+.search-box 
+{
+  border-radius: 10px;
+
+  
+}
+.search-button 
+{
+ 
+ font-size: 15px;
+ background-color: whitesmoke;
+ border: 2px solid white;
+ 
+}
+.login 
+{
+  margin-left: 190px;
+}
+.login>button
+{
+  border-radius: 10px;
+ font-size: 15px;
+ background-color: whitesmoke
+ 
+}
+.signin>button
+{
+  border-radius: 10px;
+ font-size: 15px;
+ background-color: whitesmoke
+}
+.etw2
+{
+  width: 10%;
+  margin-left: 150px;
+  padding-top: 200px;
+}
+.etw4 
+{
+  width: 5%;
+  margin-left: 1200px;
+  
+  
+}
+.footer1 
+{
+  background-color: #535B62;
+  height: 170px;
+  padding: 10px;
+ padding-left: 30px; 
+ color: whitesmoke;
+ font-size: 13px;
+}
+.footer2 
+{
+  background-color: #535B62;
+  height: 70px;
+  padding: 10px;
+  font-size: 20px;
+  padding-left: 30px; 
+ color: whitesmoke;
+ font-weight: bold;
+  
+}
+.shirt 
+{
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+}
+.shirt>img 
+{
+  width: 100%;
+  padding: 20px;
+  
+}
+.shirt>img:hover 
+{
+  transition: 2s;
+  transform: scale(1.2);
+}
+
+.pant
+{
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+}
+.pant>img 
+{
+  width: 100%;
+  padding: 20px;
+}
+.pant>img:hover
+{
+  transition: 2s;
+  transform: scale(1.2);
+}
+.denim
+{
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+}
+.denim>img 
+{
+  width: 100%;
+  padding: 20px;
+}
+.denim>img:hover 
+{
+  transition: 2s;
+  transform: scale(1.2);
+}
+.striped
+{
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+}
+.striped>img 
+{
+  width: 100%;
+  padding: 20px;
+}
+.striped>img:hover 
+{
+  transition: 2s;
+  transform: scale(1.2);
+}
+
+.shirt-button 
+{
+  background-color: #866528;
   color: white;
+  width: 60%;
+}
+.women-shirt 
+{
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+}
+.women-shirt>img 
+{
+  width: 100%;
+  padding: 20px;
+}
+.women-shirt>img:hover 
+{
+  transition: 2s;
+  transform: scale(1.2);
 }
 
-.App-link {
-  color: #61dafb;
+.women-pant 
+{
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+}
+.women-pant>img 
+{
+  width: 100%;
+  padding: 20px;
+}
+.women-pant>img:hover 
+{
+  transition: 2s;
+  transform: scale(1.2);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.women-denim 
+{
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+}
+.women-denim>img 
+{
+  width: 100%;
+  padding: 23px;
+}
+.women-denim>img:hover 
+{
+  transition: 2s;
+  transform: scale(1.2);
+}
+
+.kids-shirt 
+{
+  padding: 10px;
+
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+}
+.kids-shirt>img 
+{
+  width: 100%;
+  padding: 23px;
+  
+}
+.kids-shirt>img:hover 
+{
+  transition: 2s;
+  transform: scale(1.2);
+}
+
+.women-link 
+{
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+.women-link:hover 
+{
+  color: red;
+}
+.kids-button 
+{
+  background-color: #866528;
+  color: white;
+  width: 50%;
+}
+.men-pants 
+{
+  padding: 5px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+}
+.men-pants>img 
+{
+  width: 100%;
+  padding: 25px;
+}
+.men-pants>img:hover 
+{
+  transition: 2s;
+  transform: scale(1.2);
+}
+.men-cargo 
+{
+  padding: 5px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+}
+.men-cargo>img 
+{
+  width: 100%;
+  padding: 25px;
+}
+.men-cargo>img:hover
+{
+  transition: 2s;
+  transform: scale(1.2);
+}
+
+.women-cargo1
+{
+  padding: 5px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+}
+.women-cargo1>img 
+{
+  width: 100%;
+  padding: 24px;
+}
+.women-cargo1>img:hover 
+{
+  transition: 2s;
+  transform: scale(1.2);
+}
+
+.women-blazer1
+{
+  padding: 5px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+}
+.women-blazer1>img 
+{
+  width: 100%;
+  padding: 25px;
+}
+.women-blazer1>img:hover 
+{
+  transition: 2s;
+  transform: scale(1.2);
+}
+.women-blazer2
+{
+  padding: 5px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+}
+.women-blazer2>img 
+{
+  width: 100%;
+  padding: 25px;
+}
+.women-blazer2>img:hover 
+{
+  transition: 2s;
+  transform: scale(1.2);
+}
+.women-jacket2
+{
+  padding: 5px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+}
+.women-jacket2>img 
+{
+  width: 100%;
+  padding: 25px;
+}
+.women-jacket2>img:hover 
+{
+  transition: 2s;
+  transform: scale(1.2);
+}
+.Bedsheet
+{
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+ 
+}
+.Bedsheet>img 
+{
+  width: 100%;
+  transition: 0.2s;
+  padding: 23px;
+}
+.Bedsheet img:hover {
+  transition: 2s;
+  transform: scale(1.2);
+}
+.span1 
+{
+  color: red;
+}
+.row 
+{
+  display: flex;
+}
+.content1 
+{
+  flex: 1%;
+}
+.content2
+{
+  flex: 1%;
+}
+.banner12 
+{
+  flex: 47%;
+  background-color: #E3E1E4;
+}
+.banner12>img 
+{
+  
+  padding-top: 110px;
+  width: 100%;
+  margin-left: 50px;
+
+}
+.Banner1 
+{
+  flex: 47%;
+   font-size: 38px;
+  
+  background-color: #E3E1E4;
+ padding-top: 60px;
+  
+ height: 600px;
+ 
+
+}
+.text 
+{
+  padding-left: 120px;
+  
+}
+.Banner1>h1 
+{
+  font-size: 50px;
+}
+.fashion 
+{
+  color: green;
+  font-size: 50px;
+  width: 45%;
+  padding-left: 190px;
+  font-weight: bold;
+}
+.banner-image 
+{
+  flex: 32%;
+  background-color: #E3E1E4;
+}
+.banner-image>img 
+{
+  padding-top: 90px;
+  width: 85%;
+  margin-left: 40px;
+}
+.shop 
+{
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  margin-left: 220px;
+  font-size: 20px;
+}
+.trend 
+{
+  padding-top: 50px;
+  padding-left: 200px;
+  
+}
+.shirt1
+{
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+}
+.shirt1>img 
+{
+  width: 100%;
+  padding: 20px;
+  
+}
+.exchange 
+{
+  font-size: 30px;
+  text-align: center;
+}
+.exchange>img 
+{
+  width: 25%;
+}
+.exchange1 
+{
+  font-size: 30px;
+  text-align: center;
+}
+.exchange1>img 
+{
+  width: 25%;
+}
+.offer 
+{
+  text-align: center;
+  font-size: 50px;
+  background-color: #E6E3E4;
+}
+.offer1 
+{
+  text-align: center;
+  font-size: 20px;
+  background-color: #E6E3E4;
+  height: 300px;
+}
+.offer1>input 
+{
+  width: 47%;
+  font-size: 22px;
+}
+.sign 
+{
+  background-color: black;
+  color: white;
+  
+}
+.women-dress 
+{
+  width: 70%;
+  padding: 20px;
+  margin-left: 120px;
+}
+.text-new 
+{
+  font-size: 25px;
+  padding-top: 70px;
+ 
+}
+.text-new>h1 
+{
+  font-weight: bold;
+}
+.login-button 
+{
+  margin-right: 100px;
+}
+.google>img 
+{
+  width: 10%;
+  margin-right: 20px;
+  background-color: #4285F4;
+  
+}
+.google
+{
+  border: 1px solid grey ;
+  height: 30px;
+}
+.google:hover 
+{
+  border: 1px solid #4285F4;
+}
+.sigin-footer 
+{
+  font-size: 35px;
+  
+}
+.signin-footer>Button
+{
+  margin-right: 50px;
+}
+.clothing-bag 
+{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 30px;
+  background-color: #E3E1E4;
+  padding-top: 60px;
+  padding-left: 30px;
+}
+.clothing-bag>img
+{
+  padding-left: 70px;
+  width: 40%;
+}
+.shopping 
+{
+  padding-left: 90px;
+  
+}
+.payment 
+{
+  background-color: #E3E1E4;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+.payment>img
+{
+  width: 10%;
+  
+  
+}
+.apple>img 
+{
+  width: 100%;
+}
+.visa
+{
+  padding-left: 20px;
+}
+.americanex
+{
+  padding-left: 20px;
+}
+.paypal
+{
+  padding-left: 20px;
+}
+
+.free-delivery
+{
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.free-delivery>h1 
+{
+  font-weight: bold;
+}
+.free-returns
+{
+  font-size: 20px;
+  text-align: center;
+ 
+}
+.free-returns>h1
+{
+  font-weight: bold;
+ 
+}
+.free-security
+{
+  font-size: 20px;
+  text-align: center;
+ 
+}
+.free-security>h1 
+{
+  font-weight: bold;
+}
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.open {
+  display: flex;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+button {
+  padding: 8px 16px;
+  border: 2px solid black;
+  background-color: #007bff;
+  color: black;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.formsfield
+{
+ display: flex;
+ justify-content: center;
+}
+.form-container 
+{
+  display: flex;
+  justify-content: center;
+}
+.google-signin
+{
+  display: flex;
+  justify-content: center;
+  
+}
+.google-signin>img
+{
+  width: 2%;
+  
+}
+.visa>img
+{
+  width: 50%;
+}
+.search-input>input
+{
+  width: 65%;
+  font-size: 22px;
+
+}
+.search-input
+{
+  padding-left: 180px;
+}
+.ri-facebook-fill
+{
+  font-size: 25px;
+  color: blue;
+}
+.ri-instagram-line 
+{
+  font-size: 25px;
+  color: red;
+}
+.ri-twitter-x-line
+{
+  font-size: 23px;
+  color: 000000; 
+}
+.ri-whatsapp-line 
+{
+  font-size: 25px;
+  color: #25D366  ;
+}
+.prod-details 
+{
+  display: flex;
+}
+.prod-image
+{
+  margin-top: 20px;
+  flex: 50%;
+  padding: 30px;
+}
+
+.prod-des 
+{
+  margin-top: 90px;
+  flex: 50%;
+}
+.select-input 
+{
+  width: 40%;
+  height: 40px;
+  margin: 20px;
+}
+.sign-button 
+{
+  background-color: whitesmoke;
+  margin-left: 30px;
+  color: black;
+  width: 40%;
+}
+.prod-details1
+{
+  display: flex;
+}
+.prod-image1
+{
+  
+  flex: 50%;
+ 
+}
+
+.prod-des1 
+{
+ 
+  flex: 50%;
+}
+.cart-products>img 
+{
+   width: 25%;
+   margin-left: 20px;
+}
+.para 
+{
+  padding: 20px;
+  font-size: 20px;
+  margin: 25px;
+}
+.para1
+{
+  background-color: black;
+  color: wheat;
+  margin: 50px;
+}
+.cart 
+{
+  padding: 10px;
+}
+
+.product-details
+{
+  font-size: 30px;
+}
+.ri-id-card-line 
+{
+  font-size: 80px;
+} 
+.create
+{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+  
+  
+}
+.login1 
+{
+  margin-left: 190px;
+}
+.login1>button
+{
+  border-radius: 10px;
+ font-size: 15px;
+ background-color: whitesmoke
+ 
+}
+.crud-products 
+{
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+
+}
+.dasboard-button 
+{
+  margin-top: 20px;
+  background-color: #ccc;
+  width: 90%;
+  height: 40px;
+ text-align: center;
+ border-radius: 8px;
+}
+.dasboard-button1
+{
+  margin-top: 20px;
+  background-color: #ccc;
+  
+  height: 40px;
+ text-align: center;
+ border-radius: 8px;
 }
