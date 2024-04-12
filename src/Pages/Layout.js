@@ -36,7 +36,7 @@ function Layout()
 
 
 <NavItem>
-<NavLink ><Link  className='women-link' to="/admin">ADMIN</Link>
+<NavLink ><Link  className='women-link' to="/admin"></Link>
 
 </NavLink>
 </NavItem>
