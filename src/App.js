@@ -4,22 +4,22 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import Layout from './Pages/Layout';     
 import Home from './Pages/Home';
 import Men from './Pages/Men'; 
-import Women from './Pages/Women';      
+import Women from './Pages/Women';        
 import Kids from './Pages/Kids';      
-import Footer from './Pages/Footer';                                    
+import Footer from './Pages/Footer';                                             
 import Login from './Pages/Login';                         
 import Signin from './Pages/Signin';             
 import Cart from './Component/Cart'    
-import ProductView from './ProductData/ProductView';  
+import ProductView from './ProductData/ProductView';   
 import ProductView1 from    './ProductData/ProductView1';    
 import Dashboard from "./Component/Admin/Dashboard";  
 import  Create from "./Component/Admin/Create"     
 import Update from './Component/Admin/Update';                 
 function App()       
-{                        
+{                         
                                     
-                         
-  return (                                       
+                          
+  return (                                            
     <div className='App'>                                                    
       <BrowserRouter>                                       
       <Layout/>          

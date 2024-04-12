@@ -76,7 +76,7 @@ function Men()
         <select onChange={handleSearchChange} value={searchTerm} className='select-input'>
           <option>Mens Shirt</option>
           <option>Mens Pants</option>
-          <option>Mens Denim Shirt</option>
+          <option>Mens Denim Shirt</option>  
           <option>Mens Jacket</option>
           <option>Mens Blazer</option>   
         </select> 

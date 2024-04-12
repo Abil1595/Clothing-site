@@ -5,13 +5,13 @@ import bg from '../Images/google-logo.png';
 
 export default function LoginModal() {
 
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState({  
     username: '',
     password: '',
   });
   const [errors, setErrors] = useState({});
 
-  const handleChange = (e) => {
+  const handleChange = (e) => {  
     const { name, value } = e.target;
     setFormData({
       ...formData,

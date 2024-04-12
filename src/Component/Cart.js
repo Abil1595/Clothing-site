@@ -57,7 +57,7 @@ const Cart = () => {
            </td> 
             
         
-           <td> <p className='para'>Price: ${product.price}</p></td> 
+           <td> <p className='para'>Price: ${price}</p></td> 
          
           
            <td>   <button onClick={() => handleIncrease(product.id)}>+</button>
