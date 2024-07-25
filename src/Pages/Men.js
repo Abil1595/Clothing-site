@@ -10,13 +10,13 @@ import bg7 from '../Images/men coat 2.webp'
 import bg8 from '../Images/men blazers.avif'; 
 import bg9 from '../Images/men blazers2.avif';
 import bg10 from '../Images/etwlogo.png';    
-import {  Col, Container, Row } from 'reactstrap';
+import {  Col, Container, Row } from 'reactstrap';            
 import {Link, useNavigate} from 'react-router-dom'
 import Products from '../ProductData/ProductDetails'
 import products from '../ProductData/ProductDetails';
 import { resetCart } from '../features/cart/cartSlice';
 import { useDispatch } from 'react-redux';  
-import { addItemToCart } from '../features/cart/cartSlice';
+import { addToCart } from '../features/cart/cartSlice';
 import {deleteItemFromCart} from '../features/cart/cartSlice'
 import {useSelector} from 'react-redux'
 import { remove } from '../features/cart/cartSlice';
@@ -46,8 +46,8 @@ function Men()
   // const handleAddToCart = () => {
   //   dispatch(addItemToCart());
   // };
-  const handleAddToCart = () => {
-    dispatch(addItemToCart());
+  const handleAddToCart = () => {  
+    dispatch(addToCart());
   };
   const handleResetCart = () => {
     dispatch(resetCart());
@@ -88,16 +88,17 @@ function Men()
                     <div className='prod-details' key={product.id}>
                       <div className='prod-image'>
                       <img src={product.image} alt=''   />
-                      </div>
+                      </div>  
                       
                       <div className='prod-des'>
-                      <p>{product.name}</p>
+                      <p>{product.name}</p>  
                          <h3>{product.price}</h3>
                          <p>{product.description}</p>
-                         <button className='shirt-button' onClick={()=>{dispatch(addItemToCart(product))
+                         <button className='shirt-button' onClick={()=>{dispatch(addToCart(product))
                           }} > Add To Bag</button>
- {/*<button className='shirt-button' onClick={()=>{dispatch(resetCart(product))
-                          }} > Add To Bag</button>
+                          {/* <button className='shirt-button' onClick={()=>{dispatch(resetCart(product))
+                          }} > Add To Bag</button>*/}
+ *
                            
                          {/* <button className='shirt-button' onClick={dispatch(deleteItemFromCart(product))} > Add To Bag</button> */}
 
@@ -115,7 +116,7 @@ function Men()
         <Row>
         {
           viewpage.map((view) =>(
-           
+               
            
         <Col sm="3" key={view.id} className='men-columns'>
             <div className='shirt'>
@@ -133,7 +134,7 @@ function Men()
             
           )
             )
-        }
+        }  
          {
           users.map((u,index)=>  
           {
@@ -141,10 +142,11 @@ function Men()
               
                 <Col sm="3" key={index.id} >
                 <div className='shirt'>
+         
+          <img src={u.image} alt={u.name} style={{ maxWidth: '100%', maxHeight: '600px' }} /><br/>
           {index+1}<br/>
           
           {u.name}<br/>
-        {u.image}<br/>
         {u.price}<br/>
          {u.des}
          </div>

@@ -12,7 +12,7 @@ import bg9 from '../Images/women jack.avif';
 import products from '../ProductData/ProductDetails';
 import { Col, Container, Row } from 'reactstrap';
 import { useDispatch } from 'react-redux';
-import { addItemToCart } from '../features/cart/cartSlice';
+import { addToCart } from '../features/cart/cartSlice';
 import { Link } from 'react-router-dom';
 function Women()
 {
@@ -26,7 +26,7 @@ function Women()
 
   const dispatch = useDispatch();
   const handleAddToCart = () => {
-    dispatch(addItemToCart());
+    dispatch(addToCart());
   };
   const viewpage = products.filter(product => product.category === "view1");
   console.log(viewpage, 'check');
@@ -63,7 +63,7 @@ function Women()
                       <p>{product.name}</p>
                          <h3>{product.price}</h3>
                          <p>{product.description}</p>
-                         <button className='shirt-button' onClick={()=>{dispatch(addItemToCart(product))
+                         <button className='shirt-button' onClick={()=>{dispatch(addToCart(product))
                           }} > Add To Bag</button>
                       </div>
                          

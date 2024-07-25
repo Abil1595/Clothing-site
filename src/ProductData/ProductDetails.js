@@ -43,7 +43,7 @@ const products=[
         id:"2",
         image :require('../Images/pant.avif'),
         name:"Mens Pants Jeans ",
-        price:" ₹840",
+        price:" ₹840",   
         category:"view",
         description:"Regular jeans pants with 100% cotton Here's presenting a houseful of classic aviators, voguish wayfarers, chic cat-eye, and retro shades that you can own for a timeless look.",
     },

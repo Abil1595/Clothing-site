@@ -12,7 +12,7 @@ import bg9 from '../Images/nehru jacket.avif';
 import products from '../ProductData/ProductDetails';
 import { Container, Row,Col } from 'reactstrap';
 import { useDispatch } from 'react-redux';
-import { addItemToCart } from '../features/cart/cartSlice';
+import { addToCart } from '../features/cart/cartSlice';
 import { Link } from 'react-router-dom';
 function Kids()
 {
@@ -25,7 +25,7 @@ function Kids()
   };
   const dispatch = useDispatch();
   const handleAddToCart = () => {
-    dispatch(addItemToCart());
+    dispatch(addToCart());
   };
 
   const viewpage = products.filter(product => product.category === "view2");
@@ -62,7 +62,7 @@ function Kids()
                       <p>{product.name}</p>
                          <h3>{product.price}</h3>
                          <p>{product.description}</p>
-                         <button className='shirt-button' onClick={()=>{dispatch(addItemToCart(product))
+                         <button className='shirt-button' onClick={()=>{dispatch(addToCart(product))
                           }} > Add To Bag</button>
                       </div>
                          
@@ -88,7 +88,7 @@ function Kids()
             </div>
             </Col>
             
-            
+                 
           )
             )
         }

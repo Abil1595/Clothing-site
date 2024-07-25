@@ -58,8 +58,8 @@ export default function LoginModal() {
   };
 
   return (
-    <div>
-      <div className='form-container'>
+    <div>     
+      <div className='form-container'>       
         <form onSubmit={handleSubmit}>
           <label>USERNAME</label><br />
           <input type='text' name='username' value={formData.username} onChange={handleChange} /><br />
@@ -70,7 +70,7 @@ export default function LoginModal() {
           {errors.password && <span style={{ color: 'red' }}>{errors.password}</span>}<br />
 
           <center><Button type='submit'>Login</Button></center>
-        </form>
+        </form>   
       </div><br />
       <div className='google-signin'>
         <img src={bg} className='gimage' alt='Google Logo' />Login with Google
