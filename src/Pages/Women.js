@@ -58,10 +58,10 @@ function Women()
                       <div className='prod-image'>
                       <img src={product.image} alt=''   />
                       </div>
-                      
+                        
                       <div className='prod-des'>
                       <p>{product.name}</p>
-                         <h3>{product.price}</h3>
+                         <h3>${product.price}</h3>
                          <p>{product.description}</p>
                          <button className='shirt-button' onClick={()=>{dispatch(addToCart(product))
                           }} > Add To Bag</button>
@@ -75,17 +75,17 @@ function Women()
                 <>
               <Row>
         {
-          viewpage.map((view) =>(
+          viewpage.map((view1) =>(
            
            
-        <Col sm="3" key={view.id} className='men-columns'>
+        <Col sm="3" key={view1.id} className='men-columns'>
             <div className='shirt'>
-             <img src={view.image} alt=''/>
-           <h5>{view.name} </h5> 
+             <img src={view1.image} alt=''/>
+           <h5>{view1.name} </h5>  
           <br/>   
-          {view.price}<br/>
+          ${view1.price}<br/>
           Price inclusive of all taxes<br/>
-          <Link to={`/women/${view.id}`}> <button className='shirt-button'>View Details</button></Link>
+          <Link to={`/women/${view1.id}`}> <button className='shirt-button'>View Details</button></Link>
             </div>
             </Col>
             

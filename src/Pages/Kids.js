@@ -60,31 +60,31 @@ function Kids()
                       
                       <div className='prod-des'>
                       <p>{product.name}</p>
-                         <h3>{product.price}</h3>
+                         <h3>${product.price}</h3>
                          <p>{product.description}</p>
                          <button className='shirt-button' onClick={()=>{dispatch(addToCart(product))
                           }} > Add To Bag</button>
                       </div>
                          
-                    </div>
+                    </div> 
                 ))}
-            </div><br/>
+            </div><br/> 
             {
               hide === true ?(
                 <>
                 <Row>
         {
-          viewpage.map((view) =>(
+          viewpage.map((view2) =>(
            
            
-        <Col sm="3" key={view.id} className='men-columns'>
+        <Col sm="3" key={view2.id} className='men-columns'>
             <div className='shirt'>
-             <img src={view.image} alt=''/>
-           <h5>{view.name} </h5> 
+             <img src={view2.image} alt=''/>
+           <h5>{view2.name} </h5> 
           <br/>   
-          {view.price}<br/>
+          ${view2.price}<br/>
           Price inclusive of all taxes<br/>
-          <Link to={`/men/${view.id}`}> <button className='shirt-button'>View Details</button></Link>
+          <Link to={`/kids/${view2.id}`}> <button className='shirt-button'>View Details</button></Link>
             </div>
             </Col>
             

@@ -9,11 +9,11 @@ const initialState = {
   imageUrl: '',
  
   totalQuantity: 0, 
-  cartTotalQuantity: 0,   
-  cartTotalAmount: 0,    
-              
+  cartTotalQuantity: 0,     
+  cartTotalAmount: 0,                          
+                    
   
-};    
+};      
 
 const calculateTotalPrice = (items) => {
   return items.reduce((total, item) => total + (item.price * (item.quantity || 1)), 0);

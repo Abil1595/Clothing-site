@@ -2,13 +2,13 @@ import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
   addToCart,
-  clearCart,
+  clearCart,  
   decreaseCart,
-  getTotals,
+  getTotals,        
   deleteItemFromCart,
 } from "../features/cart/cartSlice";
 
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";                                        
 
 const Cart = () => {
   const cart = useSelector((state) => state.cart);
@@ -73,9 +73,9 @@ const Cart = () => {
               cart.data.map((cartItem) => (
                 <div className="cart-item" key={cartItem.id}>
                   <div className="cart-product">
-                    <img src={cartItem.image} alt={cartItem.name} />
+                    <img src={cartItem.image} alt={cartItem.name} />  
                     <div>
-                      <h3>{cartItem.name}</h3>  
+                      <h3>{cartItem.name}</h3>   
                     
                       <button onClick={() => handleRemoveFromCart(cartItem)}>
                         Remove

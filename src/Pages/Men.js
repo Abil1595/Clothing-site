@@ -88,11 +88,11 @@ function Men()
                     <div className='prod-details' key={product.id}>
                       <div className='prod-image'>
                       <img src={product.image} alt=''   />
-                      </div>  
+                      </div>   
                       
-                      <div className='prod-des'>
+                      <div className='prod-des'>  
                       <p>{product.name}</p>  
-                         <h3>{product.price}</h3>
+                         <h3>${product.price}</h3>
                          <p>{product.description}</p>
                          <button className='shirt-button' onClick={()=>{dispatch(addToCart(product))
                           }} > Add To Bag</button>
@@ -123,7 +123,7 @@ function Men()
              <img src={view.image} alt=''/>
            <h5>{view.name} </h5>  
           <br/>    
-          {view.price}<br/>   
+          ${view.price}<br/>   
           Price inclusive of all taxes<br/>
           <Link to={`/men/${view.id}`}> <button className='shirt-button'>View Details</button></Link>
           
