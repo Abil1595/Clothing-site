@@ -13,7 +13,7 @@ function ProductView()
   console.log(product,"check")
   const dispatch=useDispatch();  
   const handleAddToCart = () => {
-    dispatch(addToCart({name,price,image}));
+    dispatch(addToCart({name,price,image})); 
   };  
   return (
     <div> 
