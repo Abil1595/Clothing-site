@@ -34,14 +34,14 @@ function Layout()
 <NavLink ><Link  className='women-link' to="/kids">KIDS</Link></NavLink>
 </NavItem>
 
- 
-<NavItem>
+  {Login?(<NavItem>
 <NavLink ><Link  className='women-link' to="/admin"></Link>
 
 </NavLink>  
-</NavItem>
+</NavItem>):null}
+
 <NavItem>
-<NavLink ><Link  className='women-link' to="/create"></Link>
+<NavLink ><Link  className='women-link' to="/create"></Link>  
 
 </NavLink>  
 </NavItem>

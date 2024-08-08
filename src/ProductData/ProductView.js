@@ -17,7 +17,7 @@ function ProductView()
   console.log(detail,"check");
  const dispatch=useDispatch();
  const handleAddToCart = () => {
-  dispatch(addToCart({detail}));
+  dispatch(addToCart({name,price,image}));
 };
 
   return (   
@@ -30,10 +30,10 @@ function ProductView()
         <Col sm={6}>
          <div className='product-details'>
           <h1>{name}</h1><br/>
-          <p>${price}</p><br />   
+          <p>${price}</p><br />       
          
           {description}<br/><br/>
-          <button className='shirt-button' onClick={()=>{dispatch(addToCart({detail}))
+          <button className='shirt-button' onClick={()=>{dispatch(addToCart({name,price,image}))
                           }} > Add To Bag</button>
           </div>
         </Col>

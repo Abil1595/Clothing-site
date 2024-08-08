@@ -32,7 +32,7 @@ function App()
      <Route path="/admin" element={<Dashboard />}/>      
      <Route path='/login' element={<Login/>}/>           
      <Route path='/signin' element={<Signin/>}/>  
-     <Route path='/cart' element={<Cart/>}/>        
+     <Route path='/cart' element={<Cart/>}/>            
             
      <Route path='/men/:id' element={<ProductView/>}/>          
      <Route path='/women/:id1' element={<ProductView1/>}/>
@@ -41,8 +41,8 @@ function App()
     <Route path='/edit/:id' element={<Update/>}/>  
     </Routes>        
                                    
-    </BrowserRouter>                    
-     
+    </BrowserRouter>                        
+        
     <Footer/> 
     </div>    
   );         
